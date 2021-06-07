@@ -1,0 +1,22 @@
+Algoritmo Ej9
+	T1=0
+	T2=0
+	Promedio = 0
+	Contador = 0
+	Hacer
+		Escribir "Ingrese la primera temperatura"
+		Leer T1
+		Escribir "Ingrese la segunda temperaura"
+		Leer T2
+		Si T1<=15 Y T1>=5
+			Promedio = Promedio + T1
+			Contador = Contador + 1
+		FinSi
+		Si T2<=15 Y T2>=5
+			Promedio = Promedio + T2
+			Contador = Contador + 1
+		FinSi
+	Hasta Que T1 =  0
+	PromedioGeneral = Promedio/Contador
+	Escribir "El promedio de las temperaturas entre 5 y 15 gradoes es de: " PromedioGeneral " Grados"
+FinAlgoritmo
